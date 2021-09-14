@@ -1,0 +1,102 @@
+@media (max-width: 1070px){
+    .about{
+        display: block;
+    }
+    .about__indicators{
+        max-width: none;
+        text-align: center;
+    }
+    .about__inner{
+        max-width: none;
+    }
+    .contest__video{
+        display: block;
+        text-align: -webkit-center;
+    }
+    .contest__video-work{
+    padding-bottom: 200px;
+    }
+}
+@media (max-width: 860px){
+
+    .galery div{
+        margin-bottom: 8px;
+    }
+}
+@media (max-width: 812px){
+    .item__advert,
+    .item__advert-content{
+        justify-content: center;
+    }
+    .video__box{
+        display: block;
+    }
+    .video__box-youtube{
+        padding-bottom: 36.25%;
+    }
+
+    .video__box-vote span{
+    display: none;
+    } 
+
+    .video__box-vote{
+        width: auto;
+        margin: 32px auto;
+        text-align: center;
+    }
+    
+    .video__box-vote iframe{
+        display: none;
+    }
+    .video__box-vote-title,
+    .video__box-vote-text{
+        text-align: center;
+        width: 256px;
+        margin: auto;
+        margin-bottom: 32px;
+    }
+    .video__box-vote a{
+        display: inline;
+        margin-left: -54px;
+        left: 54px;
+    }
+
+    .video__box-vote-fb,
+    .video__box-vote-vk,
+    .video__box-vote-ok{
+        color: #ECEEF2;
+        background-color: #ECEEF2;
+    }
+    .about__table{
+        padding-bottom: 0;
+    }
+    .about__table tr{
+        display: grid;
+        padding-bottom: 16px;
+    }
+    .about__table-right {
+        width: auto;
+        padding-left: 0;
+    }
+    .about__franchise table td{
+        padding-bottom: 0;
+    }
+    .galery img{
+        width: 167px;
+        height: 167px;
+    }
+    .form__item-left{
+    width: -webkit-fill-available;
+    }
+}
+@media (max-width: 375px){
+    .about__indicators{
+display: none;
+    }
+}
+@media (min-width: 812px){
+    .item__advert hr{
+        display: none;
+    }
+
+}
